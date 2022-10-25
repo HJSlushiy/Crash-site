@@ -1,6 +1,11 @@
  window.alert ("don't press the blue ok button")
    window.alert ("I warned you. Don't say I didnt")
+   document.body.style.filer = "invert(100%)";
+Object.values(document.body.getElementsByTagName("*")).forEach(e => {
+    e.style.filter = "invert(100%)"
+});
+console .log ('wow')
 setInterval(function crash() {
   for (var i = 5; i > 3; i = i + 1)
-  { console.log(i); };},10000);
+  { console.log(i); };},20000);
 
