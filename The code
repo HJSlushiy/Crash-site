@@ -1,8 +1,6 @@
- function crash() {
-   window.alert ("don't press the blue ok button")
+ window.alert ("don't press the blue ok button")
    window.alert ("I warned you. Don't say I didnt")
-    for (var i = 5; i > 3; i = i + 1)
-  { console.log(i); };
-  }
+setInterval(function crash() {
+  for (var i = 5; i > 3; i = i + 1)
+  { console.log(i); };},10000);
 
-  crash();
